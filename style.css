@@ -1,10 +1,36 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #fffaf5;
   text-align: center;
-  background-color: #fff8f0;
   color: #333;
-  padding: 50px;
 }
-h1 {
-  color: #ff6b6b;
+
+.title {
+  margin-top: 20px;
+  font-size: 2.2em;
+}
+
+.pet-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.pet-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 220px;
+}
+
+.pet-card h3 {
+  margin: 0;
+  color: #ff6b81;
+}
+
+.pet-card p {
+  margin: 5px 0;
 }
